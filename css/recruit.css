@@ -1,0 +1,96 @@
+body {
+    background: whitesmoke;
+}
+
+
+/*------------------header-------------------------*/
+
+a h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+}
+
+@media only screen and (max-width: 750px) {
+    a h3 {
+        font-size: 40px;
+    }
+    .update {
+        margin-top: 20px;
+    }
+    .card {
+        max-width: 100%;
+    }
+    .quick {
+        margin-top: 50px;
+    }
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+
+/*------------------Quick survey-------------------------*/
+
+.rate {
+    position: fixed;
+    top: 0%;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(-50%);
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+#like {
+    color: skyblue;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    cursor: pointer;
+}
+
+#dislike {
+    color: red;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    cursor: pointer;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down {
+    font-size: 40px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+
+/*------------------clients-------------------------*/
+
+.client {
+    width: 40%;
+}
+
+@media only screen and (max-width: 750px) {
+    .client {
+        float: left;
+        padding-bottom: 50px;
+        margin-left: 25%;
+    }
+}

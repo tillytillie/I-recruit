@@ -1,0 +1,41 @@
+    /* Set height to 100% for body and html to enable the background image to cover the whole page: */
+    
+    body,
+    html {
+        height: 100%
+    }
+    
+    a h3 {
+        color: white;
+    }
+    
+    a:hover {
+        color: orange;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    /* Position text in the middle */
+    
+    .coming-soon {
+        margin-top: 100px;
+        color: white;
+    }
+    
+    #skill {
+        font-size: 50px;
+    }
+    /* Position text in the bottom-left corner */
+    
+    .bottomleft {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        color: white;
+        background: black;
+        background-size: cover;
+        text-align: justify;
+    }
+    
+    @media only screen and (max-width: 750px) {}
